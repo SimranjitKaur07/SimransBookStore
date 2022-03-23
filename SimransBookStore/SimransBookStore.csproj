@@ -7,6 +7,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\Admin\**" />
+    <Content Remove="Areas\Admin\**" />
+    <EmbeddedResource Remove="Areas\Admin\**" />
+    <None Remove="Areas\Admin\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Areas\Admin\Views\_ViewImports.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Areas\Admin\Views\_ViewStart.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.14" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.14" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.14" />
@@ -20,10 +38,6 @@
     <ProjectReference Include="..\SimransBooks.DataAccess\SimransBooks.DataAccess.csproj" />
     <ProjectReference Include="..\SimransBooks.Models\SimransBooks.Models.csproj" />
     <ProjectReference Include="..\SimransBooks.Utility\SimransBooks.Utility.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
   </ItemGroup>
 
 </Project>
