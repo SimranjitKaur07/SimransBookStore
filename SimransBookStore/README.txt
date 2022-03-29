@@ -37,7 +37,19 @@ Part 1 Add projects and Modify
 14. After that i include packages 
 15. Add controllers in areas 
 16. On the same day i get some errors and it runs and there is these arrors are deleted with solution
-17. After that i gave reference to all thre projects classes and that i run it
-18. Afterthat i build it and it successfully run.
+After that i gave reference to all thre projects classes and that i run it
+ Afterthat i build it and it successfully run.
+                        ***************************** 
+                        *  ASSIGNMENT 2 PART 2      *
+                        *                           *
+                        *****************************
+// 27/3/2022
+Started with Assignment 2
+// I forget my laptop charger in windsor
 
+// 29/3/22
+Started with assignment
+Build my project and 4 succsseds
 
+Add migration into my project management console
+I update on Github
