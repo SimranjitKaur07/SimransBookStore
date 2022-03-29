@@ -53,3 +53,4 @@ Build my project and 4 succsseds
 
 Add migration into my project management console
 I update on Github
+I build my project
