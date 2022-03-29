@@ -54,3 +54,11 @@ Build my project and 4 succsseds
 Add migration into my project management console
 I update on Github
 I build my project
+I add Class in Models
+Afterthat at 
+4:40
+I add migration into class category in Models
+
+4:41
+ I build My project 
+ There is no errors and Succeeded
