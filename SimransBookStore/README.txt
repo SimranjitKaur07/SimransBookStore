@@ -62,3 +62,12 @@ I add migration into class category in Models
 4:41
  I build My project 
  There is no errors and Succeeded
+
+ 7:26
+ After so long husle because i didn't notice that 
+ I didn't make a public to  my category class 
+ After complete my migration part 1 on this assignment
+ I Add new folder in .DataAccess
+ Which is Repostory 
+ Afterthat i Add class in it
+ which is IRepo 

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimransBooks.Models
+namespace SimransBooks.DataAccess.Repository
 {
-   public  class Category
+    class IRepository
     {
     }
 }

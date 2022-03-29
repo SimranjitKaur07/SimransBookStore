@@ -10,7 +10,7 @@ using SimransBookStore.DataAccess.Data;
 namespace SimransBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220329203532_AddCategoryToDb")]
+    [Migration("20220329230403_AddCategoryToDb")]
     partial class AddCategoryToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

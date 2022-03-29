@@ -10,7 +10,7 @@ using SimransBookStore.DataAccess.Data;
 namespace SimransBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220329200457_AddDefaultIdentityMigration")]
+    [Migration("20220329225637_AddDefaultIdentityMigration")]
     partial class AddDefaultIdentityMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
