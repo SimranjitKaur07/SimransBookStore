@@ -84,3 +84,15 @@ namespace SimransBooks.DataAccess.Repository
                 return (T)Convert.ChangeType(sqlCon.ExecuteScalar<T>(procedurename, param, commandType: System.Data.CommandType.StoredProcedure), typeof(T));
             }
         }
+
+        public T OneRecords<T>(string procedurename, DynamicParameters param = null)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Tuple<IEnumerable<T>, IEnumerable<T2>> Lists<T1, T2>(string procedurename, DynamicParameters param = null)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
