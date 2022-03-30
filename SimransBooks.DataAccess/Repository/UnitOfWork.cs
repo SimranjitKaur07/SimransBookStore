@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SimransBooks.DataAccess.Repository
 {
-   public class UnitOfWork   //the method to access class
+   public class UnitOfWork  :IUnitOfWork //the method to access class
     {
         private readonly ApplicationDbContext _db;             // the using statement
 

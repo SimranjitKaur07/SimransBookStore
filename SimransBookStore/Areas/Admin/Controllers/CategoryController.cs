@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace SimransBookStore.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
-        private readonly IUnitOfWork unitOfWork;
-        public CategoryController(IUnitOfWork unitOfWork)
-        {
-            _unitOfWork = unitOfWork;
-        }
         public IActionResult Index()
         {
             return View();

@@ -5,6 +5,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using SimransBooks.DataAccess.Repository;
+using SimransBooks.DataAccess.Repository.IRepository;
 using SimransBookStore.DataAccess.Data;
 
 namespace SimransBookStore

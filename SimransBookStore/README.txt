@@ -104,3 +104,13 @@ I add migration into class category in Models
  Still there are so many errors
  Now I build My project 
  there is one error shown to me
+
+ #Morning 12:3
+ I talked to my freind he said we dont need to complete the all slides
+
+ So i just complete at the controller 
+
+ i didn't add anything else
+ in this
+
+ Which is 

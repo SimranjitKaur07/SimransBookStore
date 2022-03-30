@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimransBooks.DataAccess.Repository.IRepository
 {
-    interface IUnitOfWork : IDisposable
+  public  interface IUnitOfWork 
     {
         ICategoryRepository Category { get; }
         ISP_Call SP_Call { get; }
