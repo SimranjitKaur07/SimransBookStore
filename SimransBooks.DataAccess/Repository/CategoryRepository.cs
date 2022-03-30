@@ -16,5 +16,11 @@ namespace SimransBooks.DataAccess.Repository
         {
             _db = db;
         }
+
+        public void Update(CategoryRepository category)
+        {
+            // use .NET LINQ to retriveve the first
+            throw new NotImplementedException();
+        }
     }
 }

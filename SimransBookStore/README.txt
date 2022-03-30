@@ -71,3 +71,4 @@ I add migration into class category in Models
  Which is Repostory 
  Afterthat i Add class in it
  which is IRepo 
+
