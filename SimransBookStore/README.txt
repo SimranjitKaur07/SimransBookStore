@@ -95,3 +95,10 @@ I add migration into class category in Models
  // 12:58
  I got So many errors
  Which are hard to solve
+
+ 1:51
+ I juat 20min before add
+ Controller and change the name of unitof wrok class with
+ IUnitOfWork
+
+ Still there are so many errors
