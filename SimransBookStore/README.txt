@@ -72,3 +72,11 @@ I add migration into class category in Models
  Afterthat i Add class in it
  which is IRepo 
 
+  Afterthat i add Category 
+ in both 
+ Repositry
+ And iRepository 
+ Than i add Data Into 
+ Category.cs
+ And Also in 
+ ICategory.cs
