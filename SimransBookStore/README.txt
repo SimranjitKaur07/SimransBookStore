@@ -91,3 +91,7 @@ I add migration into class category in Models
  Now i add a new class in Repo 
  Unit of work
  In that i am start working
+
+ // 12:58
+ I got So many errors
+ Which are hard to solve
