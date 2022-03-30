@@ -102,3 +102,5 @@ I add migration into class category in Models
  IUnitOfWork
 
  Still there are so many errors
+ Now I build My project 
+ there is one error shown to me
