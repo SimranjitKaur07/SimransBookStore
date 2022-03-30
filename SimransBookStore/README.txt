@@ -113,4 +113,11 @@ I add migration into class category in Models
  i didn't add anything else
  in this
 
- Which is 
+ Which is the controller category and category on browser
+
+ due to this there is no changes on browser
+
+ but i only add 
+ Repository in the file
+
+ This is for it my Todays's Assignment
