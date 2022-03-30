@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace SimransBooks.Models
 {
-   public  class Category
+    public class Category
     {
+        public object Id { get; set; }
+        public object Name { get; set; }
     }
 }

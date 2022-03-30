@@ -80,3 +80,8 @@ I add migration into class category in Models
  Category.cs
  And Also in 
  ICategory.cs
+
+ At 8:32 
+ I added a data into CategoryRepository.cs
+ Which is add name 
+ Id

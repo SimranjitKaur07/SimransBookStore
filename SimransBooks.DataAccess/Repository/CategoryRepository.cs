@@ -17,9 +17,19 @@ namespace SimransBooks.DataAccess.Repository
             _db = db;
         }
 
+        public object Id { get; private set; }
+        public object Name { get; private set; }
+
         public void Update(CategoryRepository category)
         {
-            // use .NET LINQ to retriveve the first
+            // use .NET LINQ to retriveve the first or default category object.
+            // than pass the id as a generic entity which matches the category Id
+            var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == category.Id);
+            if (objFromDb != null) // save changes if not null
+            {
+                objFromDb.Name = category.Name;
+                _db.SaveChanges();
+            }
             throw new NotImplementedException();
         }
     }
