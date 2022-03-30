@@ -85,3 +85,9 @@ I add migration into class category in Models
  I added a data into CategoryRepository.cs
  Which is add name 
  Id
+
+ 30/3/22
+ Done with category class 
+ Now i add a new class in Repo 
+ Unit of work
+ In that i am start working
