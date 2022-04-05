@@ -121,3 +121,22 @@ I add migration into class category in Models
  Repository in the file
 
  This is for it my Todays's Assignment
+
+ ************************************************************
+ *                     Assignemnt 2                         *
+ *                       Part 3                             *
+ *                                                          *
+ *                                                          *
+ ************************************************************
+
+ Yeasterday 4/4/2022
+ about 2pm 
+ I started working on my third part will i have to firstly complete my second part first 
+ so i added controller into it 
+ and i forget to pust it or write my readme
+ 
+ 5/4/22
+ 10:31
+ Now in class of ASP.Net 
+ I am writing my readme 
+ Or Pushing It.
