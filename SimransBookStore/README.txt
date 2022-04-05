@@ -144,3 +144,6 @@ I add migration into class category in Models
  10:56
  Adding INDEX.cshtml into category 
  in that i added my layout of  category.
+
+ LAyout.cshtml
+ Add my layout in nav
