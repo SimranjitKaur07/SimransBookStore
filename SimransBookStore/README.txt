@@ -147,3 +147,7 @@ I add migration into class category in Models
 
  LAyout.cshtml
  Add my layout in nav
+
+ # Add my Category
+Layout
+Nav
