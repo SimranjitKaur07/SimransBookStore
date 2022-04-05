@@ -45,4 +45,8 @@
     <ProjectReference Include="..\SimransBooks.Utility\SimransBooks.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Views\Category\" />
+  </ItemGroup>
+
 </Project>
