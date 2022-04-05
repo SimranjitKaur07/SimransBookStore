@@ -140,3 +140,7 @@ I add migration into class category in Models
  Now in class of ASP.Net 
  I am writing my readme 
  Or Pushing It.
+
+ 10:56
+ Adding INDEX.cshtml into category 
+ in that i added my layout of  category.
