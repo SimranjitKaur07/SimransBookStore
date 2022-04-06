@@ -169,3 +169,5 @@ _EditAndBackToListButton
 1:09
 Add a coding in
 Upsert.cshtml
+
+Add Asp-Action in Index.cshtml
