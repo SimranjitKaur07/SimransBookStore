@@ -165,3 +165,7 @@ As well as _createAndBActToListButton.cshtml
 1:05
 Now i add model code in 
 _EditAndBackToListButton
+
+1:09
+Add a coding in
+Upsert.cshtml
