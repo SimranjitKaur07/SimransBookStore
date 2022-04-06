@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <Compile Include="Areas\Admin\Controllers\CategoryController.cs" />
-    <Compile Include="Areas\Admin\Views\Controllers\HomeController.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -47,6 +46,7 @@
 
   <ItemGroup>
     <None Include="Areas\Admin\Views\Category\Index.cshtml" />
+    <None Include="Areas\Admin\Views\Category\Upsert.cshtml" />
   </ItemGroup>
 
 </Project>

@@ -18,7 +18,7 @@ namespace SimransBooks.DataAccess.Repository
         public Repository(ApplicationDbContext db)     // use hot keys C-T-O-R to build the constructor
         {
             _db = db;
-            this.dbSet = _db.Set<T>();
+            //this.dbSet = _db.Set<T>();
         }
         public void Add(T entity)
         {
@@ -50,7 +50,7 @@ namespace SimransBooks.DataAccess.Repository
             {
                 return orderBy(query).ToList();
             }
-            return query.ToList();      // returns the IEnumerable based on the conditions of the query
+            return query.ToList(); // returns the IEnumerable based on the conditions of the query
         }
 
         public T GetFirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null)

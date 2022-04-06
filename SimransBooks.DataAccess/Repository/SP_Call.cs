@@ -12,41 +12,40 @@ using System.Threading.Tasks;
 namespace SimransBooks.DataAccess.Repository
 {
     public class SP_Call : ISP_Call
+
+
     {
-        //access the database
+
         private readonly ApplicationDbContext _db;
+        private static string ConnectionString = "";
 
-        public string ConnectionString { get; }
-
-        private static string ConnectinString = ""; //needed to called the stored procedure
-
-        //constructure to open a sql connection
         public SP_Call(ApplicationDbContext db)
         {
             _db = db;
             ConnectionString = db.Database.GetDbConnection().ConnectionString;
         }
-
-        // implements the ISP_Call interface
-        public void Disopose()
+        public void Dispose()
         {
             _db.Dispose();
+
         }
-        public void Execute(string procedureName, DynamicParameters param = null)
+
+        public void Execute(string procedurename, DynamicParameters param = null)
+
         {
-            using (SqlConnection sqlCan = new SqlConnection(ConnectionString))
+            using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
             {
-                sqlCan.Open();
-                sqlCan.Execute(procedureName, param, commandType: System.Data.CommandType.StoredProcedure);
+                sqlCon.Open();
+                sqlCon.Execute(procedurename, param, commandType: System.Data.CommandType.StoredProcedure);
             }
         }
 
-        public IEnumerable<T> Lists<T>(string procedureName, DynamicParameters param = null)
+        public IEnumerable<T> List<T>(string procedurename, DynamicParameters param = null)
         {
-            using (SqlConnection sqlCan = new SqlConnection(ConnectionString))
+            using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
             {
-                sqlCan.Open();
-                return sqlCan.Query<T>(procedureName, param, commandType: System.Data.CommandType.StoredProcedure);
+                sqlCon.Open();
+                return sqlCon.Query<T>(procedurename, param, commandType: System.Data.CommandType.StoredProcedure);
             }
         }
 
@@ -83,16 +82,6 @@ namespace SimransBooks.DataAccess.Repository
                 sqlCon.Open();
                 return (T)Convert.ChangeType(sqlCon.ExecuteScalar<T>(procedurename, param, commandType: System.Data.CommandType.StoredProcedure), typeof(T));
             }
-        }
-
-        public T OneRecords<T>(string procedurename, DynamicParameters param = null)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Tuple<IEnumerable<T>, IEnumerable<T2>> Lists<T1, T2>(string procedurename, DynamicParameters param = null)
-        {
-            throw new NotImplementedException();
         }
     }
 }
