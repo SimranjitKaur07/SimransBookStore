@@ -151,3 +151,13 @@ I add migration into class category in Models
  # Add my Category
 Layout
 Nav
+
+12:55 
+Night 
+I was ill I am not able to do my assignment
+Now i am doing this
+I am Again started with this
+I am done 
+with category.js
+Index.cshtml
+As well as _createAndBActToListButton.cshtml
