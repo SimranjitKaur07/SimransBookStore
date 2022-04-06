@@ -1,91 +1,57 @@
-﻿using SimransBooks.DataAccess.Repository.IRepository;
+﻿using Microsoft.EntityFrameworkCore;
+using SimransBooks.DataAccess.Repository.IRepository;
 using SimransBookStore.DataAccess.Data;
-using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace SimransBooks.DataAccess.Repository
 {
-    // Implements all the methods of the IRepository
     public class Repository<T> : IRepository<T> where T : class
     {
-        // modify the database w/ the db context
-        private readonly ApplicationDbContext _db;      // get the db instance using the constructor and DI 
+        private readonly ApplicationDbContext _db;
         internal DbSet<T> dbSet;
-        public Repository(ApplicationDbContext db)     // use hot keys C-T-O-R to build the constructor
+        public Repository(ApplicationDbContext db)
         {
             _db = db;
-            //this.dbSet = _db.Set<T>();
+            this.dbSet = _db.Set<T>();
         }
         public void Add(T entity)
         {
-            dbSet.Add(entity);      // add context so classes correspond to the DbSet in ApplicationDbContext
+            throw new NotImplementedException();
         }
 
         public T Get(int id)
         {
-            return dbSet.Find(id);
+            throw new NotImplementedException();
         }
 
         public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeProperties = null)
         {
-            IQueryable<T> query = dbSet;
-            if (filter != null)
-            {
-                query = query.Where(filter);
-            }
-
-            if (includeProperties != null)
-            {
-                foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
-                {
-                    query = query.Include(includeProp);
-                }
-            }
-
-            if (orderBy != null)
-            {
-                return orderBy(query).ToList();
-            }
-            return query.ToList(); // returns the IEnumerable based on the conditions of the query
+            throw new NotImplementedException();
         }
 
         public T GetFirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null)
         {
-            IQueryable<T> query = dbSet;
-            if (filter != null)
-            {
-                query = query.Where(filter);
-            }
-
-            if (includeProperties != null)
-            {
-                foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
-                {
-                    query = query.Include(includeProp);
-                }
-            }
-
-            return query.FirstOrDefault();      // returns the IEnumerable based on the conditions of the query
+            throw new NotImplementedException();
         }
 
         public void Remove(int id)
         {
-            T entity = dbSet.Find(id);
-            Remove(entity);
+            throw new NotImplementedException();
         }
 
         public void Remove(T entity)
         {
-            dbSet.Remove(entity);
+            throw new NotImplementedException();
         }
 
         public void RemoveRange(IEnumerable<T> entity)
         {
-            dbSet.RemoveRange(entity);
+            throw new NotImplementedException();
         }
     }
 }

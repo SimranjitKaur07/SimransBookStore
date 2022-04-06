@@ -30,7 +30,7 @@ namespace SimransBookStore
 
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
+           services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 

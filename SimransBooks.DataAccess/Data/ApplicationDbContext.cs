@@ -1,9 +1,6 @@
-﻿using SimransBooks.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using SimransBooks.Models;
 
 namespace SimransBookStore.DataAccess.Data
 {
@@ -12,11 +9,12 @@ namespace SimransBookStore.DataAccess.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
+
+        }
+     public DbSet<Category>Categories { get; set; }
+    }
       
     }
-        public DbSet<Category> Categories { get; set; }
-    }
 
-}
     
 
