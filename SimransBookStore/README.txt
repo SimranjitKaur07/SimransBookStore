@@ -161,3 +161,7 @@ I am done
 with category.js
 Index.cshtml
 As well as _createAndBActToListButton.cshtml
+
+1:05
+Now i add model code in 
+_EditAndBackToListButton
