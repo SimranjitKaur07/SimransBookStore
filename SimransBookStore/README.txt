@@ -171,3 +171,20 @@ Add a coding in
 Upsert.cshtml
 
 Add Asp-Action in Index.cshtml
+
+***************
+*  Bad thing happen with me that my file is clash and i am not able to do third part due to that i loss my five% and than i started my code AGAIN 
+FROM SECOND assignment  no i am working on ith
+i did all starting steps
+***************
+i add index
+i add upsert but than my project is not running
+its too late to do because its 
+19/4/22 11:43
+in class but before that i am more woried about
+my subject javascript so
+thats why i was not able to do 
+also i had fever
+So Sorry for that
+
+Lets strt again motivating myself:::::
