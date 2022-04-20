@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Areas\Admin\Views\Category\Index.cshtml" />
     <Content Include="Areas\Admin\Views\_ViewImports.cshtml">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
@@ -45,10 +46,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Areas\Admin\Views\Shared\Index.cshtml" />
-    <None Include="Areas\Admin\Views\Shared\Upsert.cshtml" />
-    <None Include="Areas\Admin\Views\Shared\_CreateAndBackToListButton.cshtml" />
-    <None Include="Areas\Admin\Views\Shared\_EditAndBackToListButton.cshtml" />
+    <None Include="Areas\Admin\Views\Category\Upsert.cshtml" />
+    <None Include="Views\Shared\_CreateAndBackToListButton.cshtml" />
+    <None Include="Views\Shared\_EditAndBackToListButton.cshtml" />
   </ItemGroup>
 
 </Project>
