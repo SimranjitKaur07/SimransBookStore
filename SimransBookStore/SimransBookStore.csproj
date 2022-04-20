@@ -57,4 +57,8 @@
     <None Include="Views\Shared\_EditAndBackToListButton.cshtml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\image\product\" />
+  </ItemGroup>
+
 </Project>

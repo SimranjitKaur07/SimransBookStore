@@ -1,4 +1,5 @@
 ﻿using SimransBooks.Models;
+using SimransBooks.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace SimransBooks.DataAccess.Repository.IRepository
 {
-    public interface ICategoryRepository : IRepository<Category>
+    public interface IProductRepository : IRepository<Product>
     {
-        void Update(Category category);
+        void Update(Product product);
     }
 }

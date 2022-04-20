@@ -1,4 +1,5 @@
 ﻿using SimransBooks.DataAccess.Repository.IRepository;
+using SimransBooks.Models;
 using SimransBooks.Models.ViewModels;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -7,8 +8,9 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 
-namespace SimransBook.Areas.Admin.Controllers
+namespace ManveetsBooks.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class ProductController : Controller

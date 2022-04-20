@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace SimransBooks.DataAccess.Repository.IRepository
 {
-     public interface IUnitOfWork : IDisposable
+    public interface IUnitOfWork : IDisposable
     {
         ICategoryRepository Category { get; }
+        ICoverTypeRepository CoverType { get; }
+        IProductRepository Product { get; }
         ISP_Call SP_Call { get; }
-        object CoverType { get; }
-        object Product { get; }
 
         void Save();
-             
     }
 }

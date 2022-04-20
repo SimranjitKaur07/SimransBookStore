@@ -219,3 +219,17 @@ categorycontroller.cs
 in that file i found errors 
 which is hard to solver at last time but 
 i am not giving up.....
+
+
+
+
+In class I show my project to andrew sir
+i have errors 
+now i am working on it 
+
+
+At 2:19 
+
+I am just did changes uinto my repository 
+
+as well as in products
