@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using SimransBooks.Models;
+using SimransBooks.Models.ViewModels;
 
 namespace SimransBookStore.DataAccess.Data
 {
@@ -12,6 +13,7 @@ namespace SimransBookStore.DataAccess.Data
 
         }
      public DbSet<Category>Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
       
     }
