@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace BulkyBook.Areas.Admin.Controllers
+namespace SimransBook.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class ProductController : Controller
