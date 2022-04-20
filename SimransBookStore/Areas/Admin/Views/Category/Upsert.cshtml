@@ -1,16 +1,16 @@
 ﻿@model SimransBooks.Models.Category;
 @{
-    ViewData["Title"] = "Upsert";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var title = "Create Category";
 }
 
 <form method="post">
     <div class="row p-3 border">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        @if (Model.Id != 0)
+          @if(Model.Id != null)
         {
-        // edit
-        title = "Edit Category";
+            //edit
+            title = "Edit Category";
         }
         <div class="col-12 border-bottom">
             <h2 class="text-primary">TITLE</h2>
@@ -40,5 +40,9 @@
         </div>
     </div>
 </form>
+
+@section Scripts {
+<partial name="_ValidationScriptsPartial" />
+}
 
 
