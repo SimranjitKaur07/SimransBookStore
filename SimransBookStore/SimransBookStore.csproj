@@ -47,6 +47,7 @@
   <ItemGroup>
     <None Include="Areas\Admin\Views\Category\Index.cshtml" />
     <None Include="Areas\Admin\Views\Category\Upsert.cshtml" />
+    <None Include="Areas\Admin\Views\Category\_CreateAndBackToListButton.cshtml" />
   </ItemGroup>
 
 </Project>
