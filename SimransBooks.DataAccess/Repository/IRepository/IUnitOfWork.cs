@@ -11,6 +11,7 @@ namespace SimransBooks.DataAccess.Repository.IRepository
         ICategoryRepository Category { get; }
         ISP_Call SP_Call { get; }
         object CoverType { get; }
+        object Product { get; }
 
         void Save();
              
