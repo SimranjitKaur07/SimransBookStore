@@ -211,3 +211,11 @@ covertype controller
 product.controller
 validation file
 That it
+
+I just did my product.cs
+cover.cs
+produtcontroller.cshtml
+categorycontroller.cs
+in that file i found errors 
+which is hard to solver at last time but 
+i am not giving up.....
